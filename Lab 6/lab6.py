@@ -4,7 +4,7 @@
 months_list  = ["February", "March", "May", "June", "August", "April", "September", "January", "October", "November", "December","July"]
 
 def main():
-    user_date = tuple((x.strip())for x in input("please enter the date in mm/dd/yyyy format that you want to convert, include '/' to seperate month day and year ").split('/'))
+    date = tuple((x.strip())for x in input("please enter the date in mm/dd/yyyy format that you want to convert, include '/' to seperate month day and year ").split('/'))
 
     month = int(user_date[0])
     day = int(user_date[1])
