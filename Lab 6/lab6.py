@@ -19,8 +19,8 @@ def main():
     yy = len (user_date[2])
 
     correct_days = 0
-
-    if month == 1 and day > 28 and isleap(year) == False:
+    # here we make sure that the month entered has the correct number of days
+    if month == 1 and day > 28 and isleap(year) == False:#here we check if the year is a leap year so that we can see if February has 28 or 29 days
         print(f'Invalid date, {year} is not a leap year, so {months_list[month]} only has 28 days!')
         correct_days +=1
     if month == 3 and day > 30:
