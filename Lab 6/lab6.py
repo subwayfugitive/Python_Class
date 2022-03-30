@@ -1,4 +1,4 @@
-# Thomas Powell Horan Lab 6
+# Lab 6 /
 # list of all the months
 
 months_list  = ["February", "March", "May", "June", "August", "April", "September", "January", "October", "November", "December","July"]
