@@ -1,4 +1,4 @@
-
+# Thomas Powell Horan
 shares = 2000
 price_per_share = 40
 amount_for_purchased_shares = shares * price_per_share
