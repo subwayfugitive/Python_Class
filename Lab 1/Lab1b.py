@@ -2,8 +2,6 @@
 #Thomas Powell Horan 2/19/21
 #This program will calculate the specific amount of ingredients needed to bake a given amount of cookies imputed by the user
 #first a quick introduction to what the program does and then we require an input
-from turtle import width
-
 
 desc = ("This is an ingredident calulator for baking cookies")
 print("""\
@@ -19,7 +17,7 @@ print("""\
 =====================================================================================================================================================                    
 *****************************************************************************************************************************************************                                    
                     """)
-print(desc.center(width))
+
 
 cookies_ammount =float(input("please enter the amount of cookies that you would like to bake: "))
 
