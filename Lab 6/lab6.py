@@ -39,10 +39,10 @@ def main():
     if correct_days <= 0:
         if month <= 11 and month >= 0 and mm == 2:
             if day < 32 and day > 0 and dd == 2:
-                if year < 10000 and yy == 4:
+                if year < 10000 and year > 0 and yy == 4:
                     print(f"Valid Date: {months_list[month]} {day}, {year}")
                 else:
-                    print("ERROR invalid year, please enter a year less than 10,0000 in YYYY format")
+                    print("ERROR invalid year, please enter a year less than 10,0000 and greater than 0 in YYYY format")
             else:
                 print("ERROR invaild day, please enter a day lower than 32 and more than 0 in DD format") 
         else:
