@@ -9,12 +9,6 @@ month_len = len(user_date[0])
 day_len = len(user_date[1])
 year_len =len(user_date[2])
 
-if month_len  > 2:
-    print("nope")
-
-
-
-
 if month <= 11 and month >= 0 and month_len <= 2:
     if day < 32 and day > 0 and day_len <= 2:
         if year < 10000 and year > 0 and year_len <= 4:
